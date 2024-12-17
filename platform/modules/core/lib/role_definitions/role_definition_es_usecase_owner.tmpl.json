@@ -1,0 +1,19 @@
+{
+  "name": "58533D56-D7CD-4730-940E-9C2A7975CBB7",
+  "type": "Microsoft.Authorization/roleDefinitions",
+  "apiVersion": "2018-01-01-preview",
+  "properties": {
+    "roleName": "Usecase-Owner",
+    "description": "The Owner of Usecase subscriptions and resources.",
+    "type": "customRole",
+    "permissions": [
+      {
+        "actions": ["*/read", "Microsoft.Support/*"],
+        "notActions": [],
+        "dataActions": [],
+        "notDataActions": []
+      }
+    ],
+    "assignableScopes": ["${current_scope_resource_id}"]
+  }
+}
