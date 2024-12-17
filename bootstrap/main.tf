@@ -11,14 +11,14 @@ terraform {
     }
     azapi = {
       source  = "azure/azapi"
-      version = "~> 1.9.0" # Use the latest stable version
+      version = "~> 1.9.0"
     }
   }
   backend "azurerm" {
     resource_group_name  = "rg-tfbackend"
-    storage_account_name = "statlztfstatedev"
+    storage_account_name = "statfstatedev"
     container_name       = "bootstrap"
-    key                  = "bootstrapidentity.tfstate"
+    key                  = "bootstrap.tfstate"
   }
 }
 

@@ -1,0 +1,14 @@
+{
+  "uc01": {
+    "policy_assignments": [],
+    "policy_definitions": [],
+    "policy_set_definitions": [],
+    "role_definitions": ["Usecase-Owner"],
+    "archetype_config": {
+      "parameters": {},
+      "access_control": {
+        "[WITT] Usecase-Owner": ["9c61264b-6807-40f3-886a-1406b5449326"]
+      }
+    }
+  }
+}
